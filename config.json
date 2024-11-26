@@ -1,0 +1,19 @@
+{
+    "name": "Solved.ac Add-on",
+    "version": "1.0.0",
+    "slug": "solved_ac_addon",
+    "description": "Fetch and display today's solved problems from solved.ac",
+    "arch": ["amd64", "armv7", "arm64"],
+    "startup": "application",
+    "boot": "auto",
+    "ports": {
+      "5000/tcp": 5000
+    },
+    "webui": "http://[HOST]:[PORT:5000]",
+    "options": {
+      "handle": "happyicus1"
+    },
+    "schema": {
+      "handle": "str"
+    }
+  }
