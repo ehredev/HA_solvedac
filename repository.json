@@ -1,5 +1,5 @@
 {
-    "name": "Solved.ac HA Add-on",
+    "name": "Home Assistant Add-on: Solved.ac to HA",
     "url": "https://github.com/ehredev/HA_solvedac",
     "maintainer": "Ehre <me@ehre.dev>"
   }
